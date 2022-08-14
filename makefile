@@ -18,6 +18,9 @@ CC_FLAGS=-c         \
 
 RM = rm -rf
 
+run: all
+	@ ./lisp
+
 all: objFolder $(PROJ_NAME)
 
 $(PROJ_NAME): $(OBJ)

@@ -29,8 +29,7 @@ xcode-select --install
 * If you already have the compiler installed just go to the project folder and use the command:
 
 ```
-make all
-./lisp
+make run
 ```
 
 * This should open a simple REPL that will echo everything that you type in there. This also have a history, so you can navigate within it using up arrow and down arrow.
